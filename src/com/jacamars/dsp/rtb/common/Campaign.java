@@ -46,7 +46,7 @@ public class Campaign implements Comparable {
 	/** encoded IAB category */
 	public transient StringBuilder encodedIab;	
 	/** Should you do forensiq fingerprinting for this campaign? */
-	public boolean forensiq = false;
+	public boolean forensiq = true;
 
 	/** The spend rate of the campaign, default is $1/minute/second in micros. */
 	public long assignedSpendRate = 16667;

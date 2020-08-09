@@ -66,7 +66,7 @@ public enum  ForensiqClient implements FraudIF {
 	
 	public static void main(String [] args) throws Exception {
 		ForensiqClient q = ForensiqClient.build();
-		q.bid("","","","","","");
+		q.bid("","","","","","", "");
 		
 	}
 	
@@ -122,7 +122,7 @@ public enum  ForensiqClient implements FraudIF {
 	 * @return boolean. If it returns true, good to bid. Or, false if it fails the confidence test.
 	 * @throws Exception on missing rwquired fields - seller and IP.
 	 */
-	public FraudLog bid(String rt, String ip, String url, String ua, String seller, String crid) throws Exception {
+	public FraudLog bid(String rt, String ip, String url, String ua, String seller, String crid, String exchange) throws Exception {
 		byte[] bytes = null;
 		StringBuilder sb = new StringBuilder(preamble);
 		JsonNode rootNode = null;		

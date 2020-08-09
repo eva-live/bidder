@@ -1235,6 +1235,16 @@ class Handler extends AbstractHandler {
                         } else {
                             code = RTBServer.BID_CODE;
                             if (!bresp.isNoBid()) {
+
+                                // check for fraud
+                                if (br.forensiqPassed()==false) {
+                                    response.setStatus(br.returnNoBidCode());
+                                    response.setContentType(br.returnContentType());
+                                    baseRequest.setHandled(true);
+                                    RTBServer.fraud++;
+                                    return;
+                                }
+
                                 br.incrementBids();
                                 Controller.getInstance().sendBid(br, bresp);
                                 Controller.getInstance().recordBid(bresp);
@@ -1243,8 +1253,6 @@ class Handler extends AbstractHandler {
                                     Controller.getInstance().sendRequest(br, true);
 
                                 RTBServer.bid++;
-
-
                             }
                         }
                     }

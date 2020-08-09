@@ -15,10 +15,11 @@ public interface FraudIF {
 	 * @param ua String. The user agent.
 	 * @param seller String. The seller, usually app.id or site.id.
 	 * @param crid String. Not used, deprecated.
+	 * @param exchange String. The exchange
 	 * @return FraudLog. If this returns null, this is not a bot. If it is bot, returns the log record to use.
 	 * @throws Exception
 	 */
-	public FraudLog bid(String rt, String ip, String url, String ua, String seller, String crid) throws Exception;
+	public FraudLog bid(String rt, String ip, String url, String ua, String seller, String crid, String exchange) throws Exception;
 	
 	/**
 	 * If you want to bid on an error (like when the underlying service is unavailable, then return true.

@@ -47,9 +47,9 @@ public enum AnuraClient implements FraudIF {
 	public static AtomicLong forensiqCount = new AtomicLong(0);
 
 	/** Endpoint of the ANURA api */
-	public static String endpoint = "http://direct.us-central.anura.io"; // "http://api.forensiq.com/check";
+	public static String endpoint = "http://direct.anura.io"; // "http://api.forensiq.com/check";
 	/** Your Forensiq key */
-	public static String key = "yourkeygoeshere";
+	public static String key = "3149650265";
 	/** Default threshhold for non bidding */
 	public static int threshhold = 10;
 	/** If the forensiq site throws an error or is not available, bid anyway? */
@@ -82,7 +82,7 @@ public enum AnuraClient implements FraudIF {
 		threshhold = 100;
 
 		for (int i = 0; i < 100; i++) {
-			q.bid("", args[1], "", "", "", "");
+			q.bid("", args[1], "", "", "", "", "");
 			if (f != null) {
 				System.out.println("FRAUD: " + f.toString());
 			}
@@ -143,11 +143,12 @@ public enum AnuraClient implements FraudIF {
 	 * @param ua     String. The user agent.
 	 * @param seller String. The seller's domain.
 	 * @param crid   String. The creative id
+	 * @param exchange   String. The exchange
 	 * @return boolean. If it returns true, good to bid. Or, false if it fails the
 	 *         confidence test.
 	 * @throws Exception on missing rwquired fields - seller and IP.
 	 */
-	public FraudLog bid(String rt, String ip, String url, String ua, String seller, String crid) throws Exception {
+	public FraudLog bid(String rt, String ip, String url, String ua, String seller, String crid, String exchange) throws Exception {
 		byte[] bytes = null;
 		String content;
 
@@ -172,7 +173,10 @@ public enum AnuraClient implements FraudIF {
 		}
 
 		sb.append("ip=").append(ip);
-
+		sb.append("&ua=").append(ua);
+		sb.append("&source=").append(exchange);
+		sb.append("&campaign=").append(seller);
+		//logger.info("Anura url: "+sb);
 		HttpGet httpget = new HttpGet(sb.toString());
 
 		try {

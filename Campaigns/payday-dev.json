@@ -277,7 +277,7 @@
     "name" : "@ISO2-3",
     "type" : "com.jacamars.dsp.rtb.tools.IsoTwo2Iso3"
   }, {
-    "filename" : "$MASTERCIDR",
+    "filename" : "data/blacklist.txt",
     "name" : "@MASTERCIDR",
     "type" : "CidrMap"
   }, {

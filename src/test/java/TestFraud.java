@@ -59,8 +59,9 @@ public class TestFraud  {
 			String ua = "erererer%2F4.0%20(compatible%3B%20MSIE%207.0%3B%20Windoreererws%20NT%206.0";	// device.ua
 			String seller = "seller1234";																// site.name		
 			String crid = "creative1234";																// your creative id
-			
-			FraudLog m = forensiq.bid(rt, ip, url, ua, seller, crid);
+			String exchange = "adx";																// your creative id
+
+			FraudLog m = forensiq.bid(rt, ip, url, ua, seller, crid, exchange);
 			assertNotNull(m);
 	  }
 	  
@@ -79,8 +80,9 @@ public class TestFraud  {
 			String ua = "erererer%2F4.0%20(compatible%3B%20MSIE%207.0%3B%20Windoreererws%20NT%206.0)";
 			String seller = "seller1234";
 			String crid = "xyz1234";
-			
-			FraudLog m = forensiq.bid(rt, ip, url, ua, seller, crid);
+			String exchange = "adx";
+
+			FraudLog m = forensiq.bid(rt, ip, url, ua, seller, crid, exchange);
 			assertNull(m);
 		
 	  }
@@ -102,8 +104,9 @@ public class TestFraud  {
 			String ua = "erererer%2F4.0%20(compatible%3B%20MSIE%207.0%3B%20Windoreererws%20NT%206.0)";
 			String seller = "seller1234";
 			String crid = "xyz1234";
-			
-			FraudLog m = forensiq.bid(rt, ip, url, ua, seller, crid);
+			String exchange = "adx";
+
+			FraudLog m = forensiq.bid(rt, ip, url, ua, seller, crid, exchange);
 			assertNull(m);
 		
 	  }
@@ -117,12 +120,13 @@ public class TestFraud  {
 			String ua = "erererer%2F4.0%20(compatible%3B%20MSIE%207.0%3B%20Windoreererws%20NT%206.0)";
 			String seller = "seller1234";
 			String crid = "xyz1234";
-			
-			FraudLog m = forensiq.bid(rt, ip, url, ua, seller, crid);
+			String exchange = "adx";
+
+			FraudLog m = forensiq.bid(rt, ip, url, ua, seller, crid, exchange);
 			assertNull(m);
 			
 			forensiq.watchlist.add("st");
-			m = forensiq.bid(rt, ip, url, ua, seller, crid);
+			m = forensiq.bid(rt, ip, url, ua, seller, crid, exchange);
 			m.exchange = "smaato";
 			m.id = "32092930293020020";
 			System.out.println(m);

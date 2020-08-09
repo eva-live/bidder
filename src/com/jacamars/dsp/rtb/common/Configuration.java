@@ -543,7 +543,9 @@ public class Configuration {
 				if (!fraud.get("connections").equals(""))
 					AnuraClient.getInstance().connections = Integer.parseInt(fraud.get("connections"));
 
+				logger.info("Going to build anura");
 				forensiq = AnuraClient.build();
+				logger.info("Build completed");
 			} else if (fraud.get("type").equalsIgnoreCase("MMDB")) {
 				logger.info("*** Fraud detection is set to MMDB");
 				String db = (String) fraud.get("endpoint");

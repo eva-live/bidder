@@ -46,7 +46,7 @@ public enum MMDBClient implements FraudIF {
 	
 	public static void main(String [] args) throws Exception {
 		MMDBClient q = MMDBClient.build();
-		q.bid("","","","","","");
+		q.bid("","","","","","","");
 	}
 	
 	/**
@@ -103,10 +103,11 @@ public enum MMDBClient implements FraudIF {
 	 * @param ua String. The user agent.
 	 * @param seller String. The seller's domain.
 	 * @param crid String. The creative id
+	 * @param exchange String. The exchange
 	 * @return boolean. If it returns true, good to bid. Or, false if it fails the confidence test.
 	 * @throws Exception on missing required fields - seller and IP.
 	 */
-	public FraudLog bid(String rt, String ip, String url, String ua, String seller, String crid) throws Exception {
+	public FraudLog bid(String rt, String ip, String url, String ua, String seller, String crid, String exchange) throws Exception {
 		if (reader == null) {
 			return null;
 		}

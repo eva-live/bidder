@@ -658,7 +658,7 @@ public class BidRequest {
 	 *         configured and the bid was not deemed a bot.
 	 * @throws Exception on I/O errors.
 	 */
-	public boolean forensiqPassed() throws Exception {
+	public boolean forensiqPassed() {
 
 		// This can happen on exchanges like appnexus and google which have some other
 		// crazy signals
@@ -674,6 +674,7 @@ public class BidRequest {
 		ip = findValue(this, "device.ip");
 		ua = findValue(this, "device.ua");
 		url = findValue(this, "site.page");
+		
 		seller = siteName;
 		if (seller == null)
 			seller = siteDomain;
@@ -684,11 +685,12 @@ public class BidRequest {
 			url = URIEncoder.myUri(url);
 
 		try {
-			fraudRecord = Configuration.forensiq.bid("display", ip, url, ua, seller, "na");
+			fraudRecord = Configuration.forensiq.bid("display", ip, url, ua, seller, "na", this.exchange);
 		} catch (Exception e) {
 			if (Configuration.forensiq.bidOnError())
 				return true;
-			throw e;
+			
+			return false;
 		}
 		if (fraudRecord == null)
 			return true;
