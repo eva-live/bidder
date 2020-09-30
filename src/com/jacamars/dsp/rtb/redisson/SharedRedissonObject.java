@@ -17,7 +17,7 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicLong;
 
 /** A class that sends messages to a swarm - used to make shared objects
- * Created by Ben M. Faul on 10/4/17.
+ * Created by David Boulette on 10/4/17.
  */
 public class SharedRedissonObject implements EventIF {
 

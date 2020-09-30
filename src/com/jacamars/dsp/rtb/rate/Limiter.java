@@ -10,7 +10,7 @@ import com.jacamars.dsp.rtb.common.Campaign;
 /**
  * A rate limiting governer. A singleton object that keeps up with current spend rates for campaigns
  * in the system.
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public enum Limiter {
 

@@ -6,7 +6,7 @@ import com.jacamars.dsp.rtb.pojo.BidRequest;
 
 /**
  * Implements the Fyber Exchange specific processing.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Fyber extends BidRequest {

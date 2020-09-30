@@ -15,7 +15,7 @@ import org.junit.Test;
 
 /**
  * Tests whether the bidders will stop if the accounting deadman switch is deleted in Redis
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestDeadmanSwitch {

@@ -4,7 +4,7 @@ import com.jacamars.dsp.rtb.tools.DbTools;
 
 /**
  * Create a generic video event log.
- * Created by Ben M. Faul on 2/12/18.
+ * Created by David Boulette on 2/12/18.
  */
 public class PostbackEventLog {
 

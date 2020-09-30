@@ -1,7 +1,7 @@
 
 /**
  * The ZeroMQ system used by the RTB4FREE bidder.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 package com.jacamars.dsp.rtb.jmq;

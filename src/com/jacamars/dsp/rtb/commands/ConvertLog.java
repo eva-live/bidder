@@ -4,7 +4,7 @@ import com.jacamars.dsp.rtb.common.Configuration;
 
 /**
  * A logger for user conversions.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

@@ -3,7 +3,7 @@ package com.jacamars.dsp.rtb.pojo;
 
 /**
  * Object that defines the various SMAATO XML based templates for ad specifications.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

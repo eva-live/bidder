@@ -33,7 +33,7 @@ import com.jacamars.dsp.rtb.redisson.RedissonClient;
 
 /**
  * A class to test all aspects of the win processing.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestWinProcessing  {

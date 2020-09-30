@@ -29,7 +29,7 @@ import static org.junit.Assert.fail;
 /**
  * A class for testing that the bid has the right parameters
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestKafka  {

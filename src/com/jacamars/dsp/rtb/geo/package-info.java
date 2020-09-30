@@ -1,6 +1,6 @@
 /**
  * Geo location capabilities are implemented here.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 package com.jacamars.dsp.rtb.geo;

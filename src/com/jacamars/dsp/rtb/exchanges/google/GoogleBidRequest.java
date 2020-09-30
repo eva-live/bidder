@@ -54,7 +54,7 @@ import com.jacamars.dsp.rtb.pojo.Impression;
  * A class that creates a BidRequest from openRTB protobuf that supports most of
  * openRTB.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

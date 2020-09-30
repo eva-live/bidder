@@ -23,7 +23,7 @@ import junit.framework.TestCase;
 
 /**
  * A class to test the Geo tagged node subclass works properly.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestGeoNode  {

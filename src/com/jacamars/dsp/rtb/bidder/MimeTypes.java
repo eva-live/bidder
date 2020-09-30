@@ -9,7 +9,7 @@ import java.util.Set;
 
 /**
  * A simple class to encode mime types in the embedded web server, RTBServer.java
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class MimeTypes {

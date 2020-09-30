@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * A class that comnprises the video part of a regular ad specified in the bid request
- * @author Ben M. Faul
+ * @author David Boulette
  */
 
 public class Video {

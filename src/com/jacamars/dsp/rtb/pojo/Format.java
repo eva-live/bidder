@@ -3,7 +3,7 @@ package com.jacamars.dsp.rtb.pojo;
 import com.jacamars.dsp.rtb.common.Creative;
 
 /** A class that encapsulates a format object, sometimes found in the banner object
- * Created by Ben M. Faul on 8/11/17.
+ * Created by David Boulette on 8/11/17.
  */
 public class Format {
     public int w;

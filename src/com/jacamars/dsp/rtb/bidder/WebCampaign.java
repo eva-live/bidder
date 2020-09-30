@@ -47,7 +47,7 @@ import org.slf4j.LoggerFactory;
  * A Singleton class that handles all the campaigns.html actions. Basically it
  * serves up JSON data about campaigns, and can also load and unload campaigns.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class WebCampaign {

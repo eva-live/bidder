@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * A list of common asset element types of native advertising.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

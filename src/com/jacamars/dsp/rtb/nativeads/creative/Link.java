@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
  * A class that defines the Link asset of a native ad bid request.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

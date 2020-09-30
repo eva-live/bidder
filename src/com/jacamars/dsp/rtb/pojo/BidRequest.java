@@ -35,7 +35,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Implements the OpenRTB 2.3 bid request object.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class BidRequest {
@@ -108,7 +108,7 @@ public class BidRequest {
 	/** The compiled list of database values */
 	protected static Map<String, List<String>> mapp = new HashMap();
 	/**
-	 * Indicates there is an ext.rrtb4free object present in the bid request, used
+	 * Indicates there is an ext.evalive object present in the bid request, used
 	 * by our own private exchange
 	 */
 	static boolean RTB4FREE;

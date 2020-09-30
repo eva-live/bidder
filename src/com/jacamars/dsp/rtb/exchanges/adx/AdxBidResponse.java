@@ -24,7 +24,7 @@ import com.jacamars.dsp.rtb.tools.MacroProcessing;
 /**
  * An Ad Exchange Bid Response. Used to creat the logging record and the response to the bidder.
  * https://developers.google.com/ad-exchange/rtb/response-guide
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

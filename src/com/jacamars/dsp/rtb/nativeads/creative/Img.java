@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * A class that encapsulates an IMG asset in a bid request for a native ad.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

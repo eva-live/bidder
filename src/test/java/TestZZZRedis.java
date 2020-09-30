@@ -34,7 +34,7 @@ import java.util.concurrent.TimeUnit;
  * A class for testing all the redis functions, such as logging, recording bids,
  * etc.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

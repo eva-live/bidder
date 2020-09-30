@@ -18,7 +18,7 @@ import com.jacamars.dsp.rtb.tools.DbTools;
 
 /**
  * A class that makes a simple database for use by the Campaign admin portal
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public enum Database {

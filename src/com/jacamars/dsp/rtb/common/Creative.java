@@ -29,7 +29,7 @@ import com.jacamars.dsp.rtb.tools.MacroProcessing;
  * url, and the referring url. The creative will them be used to create the
  * components of the RTB 2 bid
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Creative {

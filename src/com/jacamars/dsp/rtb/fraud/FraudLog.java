@@ -5,7 +5,7 @@ import com.jacamars.dsp.rtb.tools.DbTools;
 
 /**
  * A class that represents Fraud logs
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class FraudLog {

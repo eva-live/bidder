@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.LongAdder;
 /**
  * A class that keeps up with the creative probes (why the creative didn't bid).
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class CreativeProbe {
 

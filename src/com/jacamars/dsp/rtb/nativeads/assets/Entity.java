@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * Defines the entity part of a native adasset.
- * @author Ben M. Faul
+ * @author David Boulette
  */
 
 public class Entity {

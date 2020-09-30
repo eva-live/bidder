@@ -4,6 +4,7 @@ import java.math.BigInteger;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.nio.ByteBuffer;
+import java.nio.Buffer;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,19 +41,28 @@ public class CIDRUtils {
     }
     
     public long getStartAddress() {
-    	ByteBuffer buffer = ByteBuffer.allocate(Long.SIZE);
-    	buffer.put(startAddress.getAddress());
-    	buffer.position(0);
-    	Long longValue = buffer.getLong();
+        try {
+            ByteBuffer buffer = ByteBuffer.allocate(Long.SIZE);
+            buffer.put(startAddress.getAddress());
+            ((Buffer)buffer).position(0);
+
+            Long longValue = buffer.getLong();
     	return longValue;
+        } catch (Exception e) {
+            return new Long(0);
+        }
     }
     
     public long getEndAddress() {
-    	ByteBuffer buffer = ByteBuffer.allocate(Long.SIZE);
-    	buffer.put(endAddress.getAddress());
-    	buffer.position(0);
-    	Long longValue = buffer.getLong();
-    	return longValue;
+        try {
+            ByteBuffer buffer = ByteBuffer.allocate(Long.SIZE);
+            buffer.put(endAddress.getAddress());
+            ((Buffer)buffer).position(0);
+            Long longValue = buffer.getLong();
+            return longValue;
+        } catch (Exception e) {
+            return new Long(0);
+        }
     }
 
 

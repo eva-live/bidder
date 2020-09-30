@@ -2,7 +2,7 @@ package com.jacamars.dsp.rtb.nativeads.creative;
 
 /**
  * A class that represents the fields found in a bid request for a Data asset of a native ad.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Data {

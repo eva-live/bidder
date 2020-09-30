@@ -2,7 +2,7 @@ package com.jacamars.dsp.rtb.fraud;
 
 /**
  * Interface for Fraud implementations
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public interface FraudIF {

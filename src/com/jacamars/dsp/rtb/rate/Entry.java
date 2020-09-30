@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.LongAdder;
  * A class that represents a price limiting entry in the bidder. It is used to track the current
  * spend in 1M long value against an assigned spend rate in 1 second increments. Call canBid() to find
  * out if you can even bid, then call addSpend() on wins.
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class Entry {
 

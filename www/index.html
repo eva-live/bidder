@@ -45,7 +45,13 @@
 				<div class="branding">
 					<h1 class="logo">
 						<a href="index.html"> 
-							<img width="200px" src='https://eva.live/wp-content/themes/eva-media/assets/images/logo-white.svg'>
+							<img id ='theLogo' width="200px" src='https://eva.live/wp-content/themes/eva-media/assets/images/logo-white.svg'>
+
+							<script>
+								if (window.location.hostname.indexOf('adflare')!=-1) {
+									document.getElementById("theLogo").src = "https://www.adflare.com/wp-content/uploads/2017/01/logo-on-black2.png";
+								}
+							</script>
 						</a>
 					</h1>
 				</div>

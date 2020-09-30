@@ -14,7 +14,7 @@ import com.jacamars.dsp.rtb.tools.IsoTwo2Iso3;
 
 /**
  * A class to handle C1X ad exchange
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

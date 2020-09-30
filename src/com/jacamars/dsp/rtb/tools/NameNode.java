@@ -13,7 +13,7 @@ import com.jacamars.dsp.rtb.redisson.RedissonClient;
  * Each bidder also ages the set, and anyone who has a timestamp over 60 seconds old is deleted from the set.
  * If a bidder is not in the pool, it is considered down.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class NameNode implements Runnable {

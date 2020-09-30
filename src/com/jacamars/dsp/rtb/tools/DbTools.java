@@ -18,7 +18,7 @@ import com.jacamars.dsp.rtb.redisson.RedissonClient;
 
 /**
  * Simple program to manipulate the Redisson map used as the database in
- * RTB4FREE Arguments:
+ * EvaLive Arguments:
  * <p>
  * [-redis host:port] Sets the redis host/port, uses localhost as default
  * <p>

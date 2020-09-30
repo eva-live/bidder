@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * A simple class to encode native ad ids in the embedded web server, RTBServer.java
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class NativeLayoutID {

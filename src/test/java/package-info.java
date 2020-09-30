@@ -1,6 +1,6 @@
 /**
  * JUNIT test cases are located here.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 package test.java;

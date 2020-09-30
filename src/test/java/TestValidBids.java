@@ -37,7 +37,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 /**
  * A class for testing that the bid has the right parameters
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestValidBids {

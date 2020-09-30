@@ -21,7 +21,7 @@ import java.util.Map;
 /**
  * TODO: This needs work, this is a performance pig
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class WinObject {

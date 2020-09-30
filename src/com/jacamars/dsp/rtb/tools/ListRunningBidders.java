@@ -10,7 +10,7 @@ import com.jacamars.dsp.rtb.tools.NameNode;
 
 /**
  * A simple tool that prints a list of running bidders in the system (Within 30 second update window)
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 
@@ -74,7 +74,7 @@ public class ListRunningBidders {
 
 /**
  * Don't use the logger, just override the name node.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 class MyNode extends NameNode {

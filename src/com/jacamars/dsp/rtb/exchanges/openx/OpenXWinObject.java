@@ -8,7 +8,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 /**
  * A class that handles Openx wins (synthesized in the creative, google doesn't support the nurl).
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class OpenXWinObject extends WinObject {

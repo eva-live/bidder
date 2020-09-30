@@ -8,7 +8,7 @@ import com.jacamars.dsp.rtb.pojo.BidRequest;
 
 /**
  * Implements the PrivateExchange processor
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Privatex extends BidRequest {

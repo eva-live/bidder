@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Appends stuff to a file
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class AppendToFile {
 

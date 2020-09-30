@@ -8,7 +8,7 @@ import com.jacamars.dsp.rtb.pojo.Impression;
  * A class that is used to hold a campaign and the associated creative that matches a bid request. Used by the
  * CampaignProcessor to return the campaign+creative pair, which will then be used by the CampaignSelector to
  * make the BidResponse.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

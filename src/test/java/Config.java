@@ -20,7 +20,7 @@ import java.util.Map;
  * The JUNIT common configuration is done here. Start the server if not running. If it is running, then
  * reload the campaigns from REDIS as tests can monmkey with them.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Config {

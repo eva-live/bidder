@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 
 /**
  * A class that handles server side includes for the RTBServer web server.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

@@ -21,7 +21,7 @@ import com.jacamars.dsp.rtb.nativeads.creative.Title;
 /**
  * A class that implements the Impression object.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Impression {

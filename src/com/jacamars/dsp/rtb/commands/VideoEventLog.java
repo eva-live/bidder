@@ -4,7 +4,7 @@ import com.jacamars.dsp.rtb.tools.DbTools;
 
 /**
  * Create a video event log.
- * Created by Ben M. Faul on 7/13/17.
+ * Created by David Boulette on 7/13/17.
  */
 public class VideoEventLog {
     /** The ad id */

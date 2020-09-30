@@ -31,7 +31,7 @@ import static java.util.Arrays.asList;
 
 /**
  * Build a Protobuf openRTB bid response.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class GoogleBidResponse extends com.jacamars.dsp.rtb.pojo.BidResponse {

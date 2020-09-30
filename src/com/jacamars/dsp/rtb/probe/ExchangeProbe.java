@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.LongAdder;
 
 /**
  * Keeps up with all the campaign probes within an exchange.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class ExchangeProbe {

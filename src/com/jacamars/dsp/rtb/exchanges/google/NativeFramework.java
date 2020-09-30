@@ -13,7 +13,7 @@ import com.google.openrtb.OpenRtb.BidRequest.Imp.Video;
 
 /**
  * Native ad decomposition for Google.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public final class NativeFramework {

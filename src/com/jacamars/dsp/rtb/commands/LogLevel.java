@@ -4,7 +4,7 @@ import com.jacamars.dsp.rtb.bidder.Controller;
 
 /**
  * A command to set the log level through REDIS
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class LogLevel extends BasicCommand {

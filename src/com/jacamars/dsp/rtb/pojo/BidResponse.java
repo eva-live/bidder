@@ -23,7 +23,7 @@ import com.jacamars.dsp.rtb.tools.MacroProcessing;
  * applied and then it is converted to a string to be used in the HTTP response.
  * 
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class BidResponse {
 	/** The object id of the corresponding bid request */
@@ -142,6 +142,10 @@ public class BidResponse {
 			if (imp.w != null) {
 				width = imp.w.intValue();
 				height = imp.h.intValue();
+			}
+			else {
+				width = creat.w;
+				height = creat.h;
 			}
 		}
 
@@ -693,6 +697,11 @@ public class BidResponse {
 			response.append("\",\"dealid\":\"");
 			response.append(dealId);
 		}
+		response.append("\",\"w\":\"");
+		response.append(width);
+		response.append("\",\"h\":\"");
+		response.append(height);
+
 		response.append("\",\"iurl\":\"");
 		response.append(imageUrl);
 		response.append("\",\"adomain\": [\"");

@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A program that fixes all the localhost indexes in the rtb4free,com web site
+ * A program that fixes all the localhost indexes in the rteva.live web site
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class WebPatch {
@@ -52,7 +52,7 @@ public class WebPatch {
 		String controller = "localhost";
 		String redis = "localhost";           /// patch for payday.json
 		String webdis = "localhost:7379";
-		String brand = "RTB4FREE";
+		String brand = "EvaLive";
 		String auth = null;
 		String demo = null;
 		String shard = null;

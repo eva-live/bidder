@@ -10,7 +10,7 @@ import java.util.*;
 
 /**
  * Proportional Random Collection selector. Probability of selection of a weighted entity is proportional to the total weight in the set.
- * Ben M. Faul
+ * David Boulette
  */
 public class ProportionalRandomCollection extends LookingGlass implements Serializable {
     /** Last entry accessesd */

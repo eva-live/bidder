@@ -7,7 +7,7 @@ import java.io.RandomAccessFile;
 
 /**
  * A class that implements a pipe tailer.
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class PipeTailer  implements Runnable {
 

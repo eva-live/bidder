@@ -3,10 +3,15 @@ package com.jacamars.dsp.rtb.bidder;
 import java.io.ByteArrayOutputStream;
 
 import java.io.File;
+import java.io.Reader;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
+import java.io.ByteArrayInputStream;
 
 import java.io.OutputStream;
 import java.io.PrintWriter;
@@ -84,7 +89,7 @@ import org.slf4j.LoggerFactory;
  * Once the RTBServer.run method is invoked, the Handler is attached to the
  * Jetty server.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class RTBServer implements Runnable {
 
@@ -1005,7 +1010,7 @@ public class RTBServer implements Runnable {
  * request can be processed, a file resource read and returned, a click or pixel
  * notification could be processed.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 @MultipartConfig
 class Handler extends AbstractHandler {
@@ -2162,7 +2167,7 @@ class AdminHandler extends Handler {
 /**
  * This bidder's instance of name node
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 class MyNameNode extends NameNode {
     static final Logger logger = LoggerFactory.getLogger(MyNameNode.class);

@@ -9,7 +9,7 @@ import com.jacamars.dsp.rtb.blocks.LookingGlass;
 
 /**
  * A class to create a map to look up 2 char ISO country codes and return 3 char country codes.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class IsoTwo2Iso3 extends LookingGlass {
@@ -56,7 +56,7 @@ public class IsoTwo2Iso3 extends LookingGlass {
 
 /**
  * Internal representation of the CSV file of the input data.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 class InternalIso {

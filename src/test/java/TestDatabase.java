@@ -20,7 +20,7 @@ import com.jacamars.dsp.rtb.tools.DbTools;
 
 /**
  * Tests the Configurastion file handling.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestDatabase {

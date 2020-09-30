@@ -1,6 +1,6 @@
 #~/bin/sh
 #
-# Rename, copy and delete log files off of a remote RTB4FREE system
+# Rename, copy and delete log files off of a remote EvaLive system
 #
 
 CERT=~ben/certs/elbritrtb.pem

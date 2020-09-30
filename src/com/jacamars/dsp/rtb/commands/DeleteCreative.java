@@ -5,7 +5,7 @@ import com.jacamars.dsp.rtb.bidder.Controller;
 
 /**
  * A class that is used to delete a creative from a campaign.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

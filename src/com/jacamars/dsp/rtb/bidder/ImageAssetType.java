@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * A simple class to encode Image asset types in the embedded web server, RTBServer.java
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class ImageAssetType {

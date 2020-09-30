@@ -3,7 +3,7 @@ package com.jacamars.dsp.rtb.common;
 
 /**
  * Determines if  leftx <= x <= rightx AND righty <= y <= rightx
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Dimension {

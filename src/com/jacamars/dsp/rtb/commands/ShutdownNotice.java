@@ -4,7 +4,7 @@ import com.jacamars.dsp.rtb.bidder.Controller;
 
 /**
  * A class that implements the shutdown notice sent to ZeroMQ if the bidder is getting ready to exit.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class ShutdownNotice extends BasicCommand {

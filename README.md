@@ -1,22 +1,22 @@
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/rtb4free/bidder.svg)](https://hub.docker.com/r/rtb4free/bidder/)
-[![Docker Stars](https://img.shields.io/docker/stars/rtb4free/bidder.svg)](https://hub.docker.com/r/rtb4free/bidder/)
-[![](https://images.microbadger.com/badges/version/rtb4free/bidder.svg)](https://microbadger.com/images/rtb4free/bidder "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/rtb4free/bidder.svg)](https://microbadger.com/images/rtb4free/bidder "Get your own image badge on microbadger.com")
-[![Build Status](https://travis-ci.org/rtb4free/bidder.svg?branch=master)](https://travis-ci.org/rtb4free/bidder)
+[![Docker Pulls](https://img.shields.io/docker/pulls/EvaLive/bidder.svg)](https://hub.docker.com/r/EvaLive/bidder/)
+[![Docker Stars](https://img.shields.io/docker/stars/EvaLive/bidder.svg)](https://hub.docker.com/r/EvaLive/bidder/)
+[![](https://images.microbadger.com/badges/version/EvaLive/bidder.svg)](https://microbadger.com/images/EvaLive/bidder "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/EvaLive/bidder.svg)](https://microbadger.com/images/EvaLive/bidder "Get your own image badge on microbadger.com")
+[![Build Status](https://travis-ci.org/EvaLive/bidder.svg?branch=master)](https://travis-ci.org/EvaLive/bidder)
 
-Bidder - RTB4FREE Bidder
+Bidder - EvaLive Bidder
 ========================
 
-This is the bidder component to the [RTB4Free open source DSP](http://rtb4free.com/).  The bidder is a JAVA 1.8 based openRTB bidding system, scalable to 25K+ QPS per node.
+This is the bidder component to the [EvaLive open source DSP](http://EvaLive.com/).  The bidder is a JAVA 1.8 based openRTB bidding system, scalable to 25K+ QPS per node.
 
-An image of this repo is available directly from [Docker Hub](https://hub.docker.com/r/rtb4free/bidder/)
+An image of this repo is available directly from [Docker Hub](https://hub.docker.com/r/EvaLive/bidder/)
 
 
 Getting Help
 ------------
 
-User documentation can be found on [Read The Docs](https://rtb4free.readthedocs.io)
+User documentation can be found on [Read The Docs](https://EvaLive.readthedocs.io)
 
 
 Source Code
@@ -30,7 +30,7 @@ To start working with code, first make sure you have the following installed on 
 Next, get the code from this Github repo:
 
 ```
-git clone git@github.com:RTB4FREE/bidder.git
+git clone git@github.com:EvaLive/bidder.git
 cd bidder
 ```
 
@@ -56,28 +56,28 @@ mvn test
 Start the bidder:
 
 ```
-./tools/rtb4free
+./tools/EvaLive
 ```
 
-*Note: Remember to submit changes back to this project via a [pull request](https://github.com/RTB4FREE/bidder/pulls)!*
+*Note: Remember to submit changes back to this project via a [pull request](https://github.com/EvaLive/bidder/pulls)!*
 
 Docker Image
 ------------
 
-RTB4Free bidder can be deployed using Docker.
+EvaLive bidder can be deployed using Docker.
 
 Build the Docker image:
 
 ```
-docker build -t rtb4free/bidder:latest -t rtb4free/bidder:1 -t rtb4free/bidder:1.0 .
+docker build -t EvaLive/bidder:latest -t EvaLive/bidder:1 -t EvaLive/bidder:1.0 .
 ```
 
-To push to the image to the RTB4Free repo in Docker:
+To push to the image to the EvaLive repo in Docker:
 
 ```
-docker push rtb4free/bidder:1.0
-docker push rtb4free/bidder:1
-docker push rtb4free/bidder:latest
+docker push EvaLive/bidder:1.0
+docker push EvaLive/bidder:1
+docker push EvaLive/bidder:latest
 ```
 
 *Note: Dockerhub automatically builds this container when code gets pushed to this Github repo*
@@ -106,21 +106,21 @@ To configure the bidder locally, open a browser to the host:
 
 [http://localhost:8080](http://localhost:8080)
 
-Username: `demo@rtb4free.com`
-Password: `rtb4free`
+Username: `demo@EvaLive.com`
+Password: `EvaLive`
 
 For information about the campaign manager functionality:
 
-[User Documentation](https://rtb4free.readthedocs.io)
+[User Documentation](https://EvaLive.readthedocs.io)
 
 Getting Support
 ---------------
 
 There are various ways of getting support:
 
-* Email us at [support@rtb4free.com](mailto://support@rtb4free.com)
-* Add a Github issue:  [github.com/rtb4free/bidder/issues](https://github.com/rtb4free/bidder/issues)
-* Join the [RTB4Free Slack Channel](https://join.slack.com/t/rtb4free/shared_invite/enQtNjYxNzc3NTQwMzIwLTlkNWYyMzY0NzA3MTNmMjc2M2I0NzkxYjE0NGIwYTljMjQ2YzAwYTBmMTJhNWM0ZDc0NTljNTA3NzFjNzZlNDI)
+* Email us at [support@EvaLive.com](mailto://support@EvaLive.com)
+* Add a Github issue:  [github.com/EvaLive/bidder/issues](https://github.com/EvaLive/bidder/issues)
+* Join the [EvaLive Slack Channel](https://join.slack.com/t/EvaLive/shared_invite/enQtNjYxNzc3NTQwMzIwLTlkNWYyMzY0NzA3MTNmMjc2M2I0NzkxYjE0NGIwYTljMjQ2YzAwYTBmMTJhNWM0ZDc0NTljNTA3NzFjNzZlNDI)
 
 
 
@@ -168,7 +168,7 @@ mount. Note the volumes directive:
 
 ```
   bidder:
-    image: "jacamars/rtb4free:v1"
+    image: "jacamars/EvaLive:v1"
     environment:
       BROKERLIST: "kafka:9092"
       PUBSUB: "zerospike"
@@ -185,7 +185,7 @@ mount. Note the volumes directive:
       - kafka
       - crosstalk
       - zerospike
-    command: bash -c "./wait-for-it.sh kafka:9092 -t 120 && ./wait-for-it.sh zerospike:6000 -t 120 && sleep 1; ./rtb4free"
+    command: bash -c "./wait-for-it.sh kafka:9092 -t 120 && ./wait-for-it.sh zerospike:6000 -t 120 && sleep 1; ./EvaLive"
 ```
 
 Zerospike uses a `cache.db` file located within the container. For operational use, the real `cache.db` must be mounted using the volumes command.  For example, suppose you wanted to use the file `mycache.db` in your current working directory.  The `docker-compose.yml` file would be modified as follows:
@@ -214,7 +214,7 @@ Connect Intellij Debugger to Bidder, Crosstalk or Zerospike
 -----------------------------------------
 
 Bidder:
-In the service for the bidder in docker-compose.yml, use ./rtb4free-jmx instead of ./rtbf4free Then in your Intellij system, create a remote debug and connect using port 9000.
+In the service for the bidder in docker-compose.yml, use ./EvaLive-jmx instead of ./rtbf4free Then in your Intellij system, create a remote debug and connect using port 9000.
 
 Zerospike
 In the service for the zerospike in docker-compose.yml, use ./zerospike-jmx instead of ./zerospike Then in your Intellij system, create a remote debug and connect using port 9000.
@@ -230,9 +230,9 @@ CONFIGURING THE BIDDER
 In order to run the bidder, you will need to load a campaign into the bidders memory and setup some operational parameters.
  These parameters are stored in a JSON file the bidder uses when it starts. There is a sample initialization file called
 "./Campaigns/payday.json' you can use to get started. The file describes the operational parameters of the bidder.
-Look in http://rtb4free.com/details_new.html for an in depth analysis of the configuration file. Also, once you get the
+Look in http://EvaLive.com/details_new.html for an in depth analysis of the configuration file. Also, once you get the
 bidder running, you can use the System Consolse to change the parameters using the web interface, described here:
-http://rtb4free.com/admin-mgmt.html
+http://EvaLive.com/admin-mgmt.html
 
 However, here is an example file, and a brief overview
 
@@ -411,7 +411,7 @@ A configuration file is used to set up the operating parameters of the bidder (s
 addresses), located at ./XRTB/SampleCampaigns/payday.json;  and is used to load any initial campaigns from the Database Aerospike. Upon loading the configuration file into the Configuration class, the campaigns are created, using a set of
 Node objects that describe the JSON name to look for in the RTB bid, and the acceptable values for that constraint.
 
-For details look here: http://rtb4free.com/admin-mgmt.html#configuration-section
+For details look here: http://EvaLive.com/admin-mgmt.html#configuration-section
 
 Receive Bid
 -----------
@@ -477,4 +477,4 @@ There is a test page located at http://localhost:8080
 
 It provides a system console, a campaign manager, and bid test page.
 
-For information on the ZeroMQ based commands for the RTB4FREE bidder look here: http://rtb4free.com/details_new.html#ZEROMQ
+For information on the ZeroMQ based commands for the EvaLive bidder look here: http://EvaLive.com/details_new.html#ZEROMQ

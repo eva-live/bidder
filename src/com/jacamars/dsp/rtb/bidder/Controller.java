@@ -50,7 +50,7 @@ import javax.servlet.http.HttpServletRequest;
  * made the bid. The bid is stored in the cache as a map so the win handling
  * system can handle the win, even though it did not actually make the bid.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public enum Controller {
 
@@ -1307,7 +1307,7 @@ public enum Controller {
 /**
  * A class to retrieve RTBServer commands from 0MQ.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 class CommandLoop implements com.jacamars.dsp.rtb.jmq.MessageListener<Object> {
     /**

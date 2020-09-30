@@ -5,7 +5,7 @@ import javax.script.ScriptEngineManager;
 
 /**
  * A class that encapsulates a Nashhorn script engine.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class JJS {

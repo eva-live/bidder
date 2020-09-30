@@ -2,7 +2,7 @@ package com.jacamars.dsp.rtb.common;
 
 /**
  * Identifies a private or preferred deal
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Deal  {

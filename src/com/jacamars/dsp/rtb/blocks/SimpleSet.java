@@ -11,7 +11,7 @@ import com.google.common.collect.Sets;
 
 /**
  * A guava set. Reads a file or S3 object and shoves the lines into a guava set.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class SimpleSet extends LookingGlass {

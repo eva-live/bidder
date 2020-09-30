@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
 /**
  * A Replacement for the Redisson object. This class is a serialized (JSON) interface to the Aerospike/Cache2k database.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class RedissonClient implements EventIF {
 

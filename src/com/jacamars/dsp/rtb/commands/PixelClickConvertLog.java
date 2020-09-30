@@ -18,7 +18,7 @@ import java.net.URLDecoder;
 /**
  * Base class for logging pixel loads, clicks and conversions.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class PixelClickConvertLog {
     static final Logger logger = LoggerFactory.getLogger(PixelClickConvertLog.class);

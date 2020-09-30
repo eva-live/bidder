@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
 /**
  * A class to log log4j messages to memory, for use by the web api.
  * See: https://mytechattempts.wordpress.com/2011/05/10/log4j-custom-memory-appender
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

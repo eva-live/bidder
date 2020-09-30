@@ -50,7 +50,7 @@ import com.jacamars.dsp.rtb.tools.DbTools;
 /**
  * A class for testing that the bid has the right parameters
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestGoogle {

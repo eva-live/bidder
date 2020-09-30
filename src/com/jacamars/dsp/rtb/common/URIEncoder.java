@@ -6,7 +6,7 @@ import java.net.URLEncoder;
 /**
  * Simple uri encoder, made from the spec at http://www.ietf.org/rfc/rfc2396.txt
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class URIEncoder {
 	/** HTML marks */

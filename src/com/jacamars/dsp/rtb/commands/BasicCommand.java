@@ -8,7 +8,7 @@ import com.jacamars.dsp.rtb.common.Configuration;
 
 /**
  * This is the basic command and response object in POJO form of commands is sent over REDIS
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class BasicCommand {

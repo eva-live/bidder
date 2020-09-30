@@ -24,7 +24,7 @@ import com.maxmind.geoip2.record.Location;
 /**
  * A singleton that adds geo information to a device, if IP is available.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public enum GeoPatch {

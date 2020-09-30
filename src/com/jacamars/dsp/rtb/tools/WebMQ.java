@@ -47,7 +47,7 @@ import com.jacamars.dsp.rtb.jmq.config.Config;
  * Jacamar's Inc. prototype web server. This source code is licensed under
  * Apache Commons 2.
  * 
- * @author Ben M. Faul.
+ * @author David Boulette.
  *
  */
 
@@ -123,7 +123,7 @@ public class WebMQ implements Runnable {
 /**
  * The class that handles HTTP calls for Skrambler actions.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

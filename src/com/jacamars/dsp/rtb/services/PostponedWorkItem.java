@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * A class that holds a key to be deleted, postponed to a later time.
- * @author Ben M. Faul.
+ * @author David Boulette.
  */
 public class PostponedWorkItem implements Delayed, Serializable {
     private  long startTime;

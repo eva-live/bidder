@@ -16,9 +16,9 @@ import com.jacamars.dsp.rtb.pojo.Impression;
 import org.apache.commons.lang.StringUtils;
 
 /**
- * Class provides macro processing for the RTB4FREE system.
+ * Class provides macro processing for the EvaLive system.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class MacroProcessing {
 

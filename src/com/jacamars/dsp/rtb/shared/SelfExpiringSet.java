@@ -4,7 +4,7 @@ import java.util.Set;
 
 /**
  * Interface for the self expiring map
- * @author Ben M. Faul
+ * @author David Boulette
  * @param <K> the Key type
  */
 public interface SelfExpiringSet<K> extends Set<K> {

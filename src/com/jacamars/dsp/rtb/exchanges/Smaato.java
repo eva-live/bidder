@@ -13,7 +13,7 @@ import com.jacamars.dsp.rtb.pojo.BidRequest;
  * in the BidRequest super class. The exchange only handles those values specific to the exchange.
  * <p>
  * The interrogate() method of the base class is used to retrieve the object values from the class.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Smaato extends BidRequest {

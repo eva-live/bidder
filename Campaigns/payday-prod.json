@@ -78,7 +78,7 @@
   "seats" : [ {
     "name" : "google",
     "id" : "google-id",
-    "bid" : "/rtb/bids/google=com.jacamars.dsp.rtb.exchanges.google.OpenRTB",
+    "bid" : "/rtb/bids/google=com.jacamars.dsp.rtb.exchanges.Generic&!usesEncodedAdm",
     "extension" : {
       "e_key" : "$GOOGLE_EKEY",
       "i_key" : "$GOOGLE_IKEY"

@@ -21,7 +21,7 @@ import com.jacamars.dsp.rtb.pojo.WinObject;
  * By default, no arguments means connect to localhost, watch for pixels, clicks
  * and conversions
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

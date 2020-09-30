@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.nio.ByteBuffer;
+import java.nio.Buffer;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;
@@ -253,10 +254,13 @@ public class NavMap extends LookingGlass implements Set {
 			address = (long) key;
 		else
 			try {
-				InetAddress inetAddress = InetAddress.getByName((String) key);
+				String kIp = (String) key;
+				kIp = kIp.replace(".x",".0");
+
+				InetAddress inetAddress = InetAddress.getByName((String) kIp);
 				ByteBuffer buffer = ByteBuffer.allocate(Long.SIZE);
 				buffer.put(inetAddress.getAddress());
-				buffer.position(0);
+				((Buffer)buffer).position(0);
 				address = buffer.getLong();
 			} catch (UnknownHostException e) {
 				// TODO Auto-generated catch block

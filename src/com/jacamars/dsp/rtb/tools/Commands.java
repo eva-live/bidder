@@ -28,9 +28,9 @@ import com.jacamars.dsp.rtb.redisson.RedissonClient;
 import com.jacamars.dsp.rtb.shared.FrequencyGoverner;
 
 /**
- * A simple class that sends and receives commands from RTB4FREE bidders.
+ * A simple class that sends and receives commands from EvaLive bidders.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 
 public class Commands {

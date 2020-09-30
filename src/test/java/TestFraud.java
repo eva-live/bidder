@@ -18,7 +18,7 @@ import com.jacamars.dsp.rtb.fraud.FraudLog;
 import com.jacamars.dsp.rtb.fraud.MMDBClient;
 /**
  * A class for testing that the bid has the right parameters
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestFraud  {

@@ -13,7 +13,7 @@ import java.util.Map;
 
 /**
  * A calls that handles frequency capping in Aerospike.
- * Created by Ben M. Faul on 7/21/17.
+ * Created by David Boulette on 7/21/17.
  */
 public class FrequencyCap {
     protected static final Logger logger = LoggerFactory.getLogger(FrequencyCap.class);

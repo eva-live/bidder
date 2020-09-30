@@ -2,7 +2,7 @@ package com.jacamars.dsp.rtb.geo;
 
 /**
  * Contains the solution to a GPS to zipcode, county, city, and state query.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Solution {

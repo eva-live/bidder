@@ -4,7 +4,7 @@ import java.util.Map;
 
 /**
  * Interface for the self expiring map
- * @author Ben M. Faul
+ * @author David Boulette
  * @param <K> the Key type
  * @param <V> the Value type
  */

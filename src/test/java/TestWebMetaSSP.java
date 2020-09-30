@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Tests miscellaneous classes.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

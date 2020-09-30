@@ -65,7 +65,7 @@ public class LoadGoogle {
 				break;
 			case "-h":
 			case "-help":
-				System.out.println("Send bids to the Adx endpoint of RTB4FREE. Usage:\n");
+				System.out.println("Send bids to the Adx endpoint of EvaLive. Usage:\n");
 				System.out.println(
 						"-h, -help          [This message                                                              ]");
 				System.out.println(

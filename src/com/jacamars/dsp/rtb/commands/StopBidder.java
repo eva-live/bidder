@@ -4,7 +4,7 @@ import com.jacamars.dsp.rtb.bidder.Controller;
 
 /**
  * A class implementing the 'stop bidding' command.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

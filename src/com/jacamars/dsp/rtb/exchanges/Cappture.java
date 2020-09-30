@@ -6,7 +6,7 @@ import com.jacamars.dsp.rtb.pojo.BidRequest;
 
 /**
  * A class to handle Cappture ad exchange
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

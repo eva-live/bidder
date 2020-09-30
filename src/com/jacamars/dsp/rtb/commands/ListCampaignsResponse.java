@@ -5,7 +5,7 @@ import com.jacamars.dsp.rtb.bidder.Controller;
 /**
  * A class that is used to encapsulate a 0MQ command for adding a campaign to the bidder.
  * Jackson will be used to create the structure.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class ListCampaignsResponse extends ListCampaigns {

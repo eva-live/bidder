@@ -23,7 +23,7 @@ import com.jacamars.dsp.rtb.tools.DbTools;
  * A class for testing SMAATO Bids. Note, all tests are stubbed out. Enable the test with the annotation @Test after you enable the SMAATO test code
  * in RTBServer.java.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestSmaato {

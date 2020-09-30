@@ -6,7 +6,7 @@ import com.jacamars.dsp.rtb.common.Campaign;
 
 /**
  * Implements the basic User object found in the campaigns database (database.json)
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

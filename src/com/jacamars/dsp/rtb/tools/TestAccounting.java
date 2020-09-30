@@ -18,10 +18,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jacamars.dsp.rtb.common.HttpPostGet;
 
 /**
- * Test program that generates bids/wins/clicks/pixels for the RTB4FREE server
+ * Test program that generates bids/wins/clicks/pixels for the EvaLive server
  * to work with.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestAccounting {
@@ -37,7 +37,7 @@ public class TestAccounting {
 	static String HOST = "localhost";
 	// static String HOST = "btsoomrtb";
 	// static String HOST = "54.175.237.122";
-	// static String HOST = "rtb4free.com";
+	// static String HOST = "eva.live";
 	static String winnah = "__COST__/__LAT__/__LON__/__ADID__/__CRID__/__BIDID__";
 
 	static String pixel = "/pixel/__EXCHANGE__/__ADID__/__CRID__/__BIDID__/__COST__/__LAT__/__LON__";

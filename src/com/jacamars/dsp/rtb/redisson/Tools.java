@@ -10,7 +10,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * The Serialization tool we use for redisson objects.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Tools {

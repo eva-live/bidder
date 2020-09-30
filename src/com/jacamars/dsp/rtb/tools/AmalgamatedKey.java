@@ -8,7 +8,7 @@ import java.util.zip.CRC32;
 
 /**
  * A class for creating an amalgamated key composed of:  user.id + device.ip, + CRC32(device.ua) + device.ifa + (device.didsha1 OR device.didmd5) from a bid id.
- * Created by Ben M. Faul on 10/5/17.
+ * Created by David Boulette on 10/5/17.
  */
 public class AmalgamatedKey {
     /**

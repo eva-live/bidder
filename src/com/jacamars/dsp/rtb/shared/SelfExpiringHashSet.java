@@ -33,7 +33,7 @@ import java.util.concurrent.*;
  * using a default one, that is passed to the constructor. Based on the code
  * by Pierantonio Cangianiello
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  * @param <K>
  *            the Key type
  */
@@ -283,7 +283,7 @@ public class SelfExpiringHashSet<K> implements SelfExpiringSet<K> {
 	
 	/**
 	 * The expiring key. Implements Delayed so it can be used to trigger map deletions.
-	 * @author Ben M. Faul
+	 * @author David Boulette
 	 *
 	 */
 	private class ExpiringKey implements Delayed {

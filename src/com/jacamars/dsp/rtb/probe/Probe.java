@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.LongAdder;
 
 /**
  * Reason you don't bid probe.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Probe {

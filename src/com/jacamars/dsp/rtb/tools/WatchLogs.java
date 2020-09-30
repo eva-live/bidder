@@ -14,7 +14,7 @@ import com.jacamars.dsp.rtb.jmq.RTopic;;
  * <p>
  * Defaults: -redis localhost:6379 -level 2 -to '*'
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 
 public class WatchLogs implements MessageListener<BasicCommand> {

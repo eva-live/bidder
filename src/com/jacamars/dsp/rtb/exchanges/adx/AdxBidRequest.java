@@ -502,7 +502,7 @@ public class AdxBidRequest extends BidRequest {
 
 
 
-	String clickthrough = "http://rtb4free.com/click=1";
+	String clickthrough = "http://eva.live/click=1";
 
 	/**
 	 * Makes sure the Adx keys are available on the creative
@@ -638,7 +638,7 @@ public class AdxBidRequest extends BidRequest {
 		response.adAddAgencyId(1);
 
 		if (clickthrough == null)
-			clickthrough = "http://rtb4free,com/click=1";
+			clickthrough = "http://eva.live/click=1";
 			response.adAddClickThroughUrl(clickthrough);
 		
 		response.cost = cost;

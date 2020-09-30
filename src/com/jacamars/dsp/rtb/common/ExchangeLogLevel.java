@@ -9,7 +9,7 @@ import com.jacamars.dsp.rtb.tools.XORShiftRandom;
  * Class that determines if a request log should be released. By default, all requests will be released. You can
  * set the percentage to globally log. You can however override the global request percentage by specfying the
  * log level in the creation of the endpoint.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public enum ExchangeLogLevel {

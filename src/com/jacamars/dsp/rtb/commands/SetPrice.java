@@ -4,7 +4,7 @@ import com.jacamars.dsp.rtb.bidder.Controller;
 
 /**
  * A class that is used to get the price in a creative.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

@@ -6,7 +6,7 @@ import com.jacamars.dsp.rtb.common.Campaign;
 /**
  * A class that is used to encapsulate a REDIS command for adding a multiple compaigns to the bidder.
  * GSON will be used to create the structure.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class AddCampaignsList extends BasicCommand {

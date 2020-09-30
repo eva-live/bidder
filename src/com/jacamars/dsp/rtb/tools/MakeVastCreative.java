@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * A test program for making VAST Creatives from an XML file.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class MakeVastCreative {

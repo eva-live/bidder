@@ -3,7 +3,7 @@ import org.apache.zookeeper.Watcher.Event.EventType;
 
 /**
  * Interface for catch Zookeeper data events
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public interface Zoolander {

@@ -8,7 +8,7 @@ import redis.clients.jedis.Jedis;
 
 /**
  * A class that handles the actual command received by the subscriber.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class AwsCommander {

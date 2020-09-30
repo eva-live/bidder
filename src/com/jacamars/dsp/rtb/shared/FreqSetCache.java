@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * A class to replace the self expiring hash set. Use cache2k so we don't have to support more home brew code.
- * Created by Ben M. Faul on 1/1/18.
+ * Created by David Boulette on 1/1/18.
  */
 public class FreqSetCache {
 

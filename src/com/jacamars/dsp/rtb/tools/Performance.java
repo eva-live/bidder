@@ -22,9 +22,9 @@ import java.util.Locale;
 
 /**
  * Class provides basic runtime specifics used in the heartbeat message of the
- * RTB4FREE system.
+ * EvaLive system.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Performance {

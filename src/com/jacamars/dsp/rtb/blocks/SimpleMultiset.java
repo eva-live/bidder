@@ -16,7 +16,7 @@ import com.google.common.collect.Multiset;
 
 /**
  * Implements the Multiset counter for UTF-8 strings. Builds a Guava Multiset from file or S3 object.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class SimpleMultiset extends LookingGlass {

@@ -10,7 +10,7 @@ import java.util.TreeSet;
 
 /**
  * A Membership class fdor use with the Bidder.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Membership extends LookingGlass {

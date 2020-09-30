@@ -13,7 +13,7 @@ import com.jacamars.dsp.rtb.tools.DbTools;
 /**
  * This is the echo command and response format. It provides basic statistical info plus
  * all of the campaigns currently loaded in the system.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 @JsonIgnoreProperties(ignoreUnknown=true)

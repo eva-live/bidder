@@ -19,7 +19,7 @@ import junit.framework.TestCase;
 
 /**
  * Tests miscellaneous classes.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

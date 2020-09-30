@@ -10,7 +10,7 @@ import java.util.Map;
 
 /**
  * A class that does specialized geo tagging. Given a GPS coordinate, returns the closest US zip code.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class GeoTag {

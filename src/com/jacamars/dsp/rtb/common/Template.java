@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * A class for defining multiple ADM fields on a per Exchange basis
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Template {

@@ -39,7 +39,7 @@ import redis.clients.jedis.JedisPool;
  * A publisher for ZeroMQ, File, and Logstash/http based messages, sharable by
  * multiple threads.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class ZPublisher implements Runnable, Callback {
 

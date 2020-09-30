@@ -66,7 +66,7 @@ import redis.clients.jedis.Jedis;
  * <p>
  * TODO: Query
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Node {

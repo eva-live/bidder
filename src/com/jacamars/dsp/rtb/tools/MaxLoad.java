@@ -7,8 +7,8 @@ import java.nio.file.Paths;
 import com.jacamars.dsp.rtb.common.HttpPostGet;
 
 /**
- * Test program for loading maximum bids into a RTB4FREE bidder.
- * @author Ben M. Faul
+ * Test program for loading maximum bids into a EvaLive bidder.
+ * @author David Boulette
  *
  */
 public class MaxLoad implements Runnable {

@@ -12,7 +12,7 @@ import com.jacamars.dsp.rtb.tools.XORShiftRandom;
 /**
  * A class that chooses deals. For duplicates you can choose random or highest (and random of dup highest). It extends
  * List simply as a convenience for configuration.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Deals extends ArrayList<Deal> {

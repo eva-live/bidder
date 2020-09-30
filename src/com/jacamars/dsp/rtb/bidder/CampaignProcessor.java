@@ -36,7 +36,7 @@ import org.slf4j.LoggerFactory;
  * function will return null - meaning the campaign is not applicable to the
  * bid.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class CampaignProcessor implements Runnable {

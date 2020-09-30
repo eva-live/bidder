@@ -10,7 +10,7 @@ import static org.junit.Assert.assertTrue;
 
 /**
  * Test video events and their logging
- * Created by Ben M. Faul on 7/3/17.
+ * Created by David Boulette on 7/3/17.
  */
 public class TestVideoEvent {
 

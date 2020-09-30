@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.LongAdder;
 
 /**
  * An accumulator for exchange level statistics.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

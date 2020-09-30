@@ -11,7 +11,7 @@ import com.jacamars.dsp.rtb.nativeads.creative.Title;
 /**
  * A class that encapsulates native content bid request. Note, this is defined and filled out in the construction of
  * the bid request, and is used to match against creatives.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class NativePart {

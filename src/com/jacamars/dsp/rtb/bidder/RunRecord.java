@@ -8,7 +8,7 @@ import java.util.List;
  * Creates a single line of text on stdout that shows the performance between marked lines of code.
  * The first column is the name of the measurement. The second - N lines are delta microseconds from the last measure.
  * The total column is the total microseconds between the measurement.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class RunRecord {

@@ -21,8 +21,8 @@ import com.jacamars.dsp.rtb.common.Configuration;
 import com.jacamars.dsp.rtb.common.HttpPostGet;
 
 /**
- * Test program that generates bids/wins/clicks/pixels for the RTB4FREE server to work with.
- * @author Ben M. Faul
+ * Test program that generates bids/wins/clicks/pixels for the EvaLive server to work with.
+ * @author David Boulette
  *
  */
 public class ElasticLoader {
@@ -45,7 +45,7 @@ public class ElasticLoader {
      }
 	//static String HOST = "btsoomrtb";
 	// static String HOST = "54.175.237.122";
-	// static String HOST = "rtb4free.com";
+	// static String HOST = "eva.live";
 	private static String winnah = "__DOMAIN__/__TYPE__/__EXCHANGE__/__PRICE__/__LAT__/__LON__/__ADID__/__CRID__/__BIDID__";
 
 	private static String pixel = "callback?target=pixel&exchange=__EXCHANGE__&ad_id=__ADID__&creative_id=__CRID__&bid_id=__BIDID__&cost=__COST__&lat=__LAT__&lon=__LON__";

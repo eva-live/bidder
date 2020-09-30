@@ -5,7 +5,7 @@ import java.util.List;
 
 /** Singleton for holding SPEC and EXPIRY keys. Keep from generating tons of strings on the heap when
  * handling frequency keys.
- * Created by Ben M. Faul on 8/10/17.
+ * Created by David Boulette on 8/10/17.
  */
 public enum ExpireKeys {
     INSTANCE;

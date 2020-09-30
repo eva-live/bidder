@@ -2,7 +2,7 @@ package com.jacamars.dsp.rtb.probe;
 
 /**
  * A class that provides for sortable reasons
- * @author Ben M. Faul
+ * @author David Boulette
  */
 
 public class EntryField implements Comparable<EntryField> {

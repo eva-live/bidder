@@ -2,7 +2,7 @@ package com.jacamars.dsp.rtb.exchanges.adx;
 
 /**
  * A class to use in logging feedback messages from adx.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class AdxFeedback {

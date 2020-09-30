@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * share the keys across them. So if a user gets a bid, then all other bidders know about it. Then if within 1 second a
  * bid comes in and this key matches, the second bidder will not bid on it.
  * <p>
- * Created by Ben M. Faul on 10/4/17.
+ * Created by David Boulette on 10/4/17.
  */
 public class FrequencyGoverner implements SharedObjectIF<String> {
 

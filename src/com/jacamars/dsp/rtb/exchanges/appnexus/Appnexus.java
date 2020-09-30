@@ -20,7 +20,7 @@ import com.fasterxml.jackson.databind.node.MissingNode;
 /**
  * A class to handle Appnexus ad exchange
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

@@ -4,7 +4,7 @@ import com.jacamars.dsp.rtb.bidder.Controller;
 
 /**
  * A class that is used to delete a campaign (by the 'id')
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class ListSSP extends BasicCommand {

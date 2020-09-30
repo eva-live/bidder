@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSessionListener;
 
 /**
  * A class to keep track of users logged in to the system
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

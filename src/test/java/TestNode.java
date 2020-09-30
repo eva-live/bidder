@@ -24,7 +24,7 @@ import org.junit.Test;
 
 /**
  * Tests the constraint node processing.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestNode {

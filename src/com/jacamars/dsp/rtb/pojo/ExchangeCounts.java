@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * A Singleton used to keep up with exchange statistics
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public enum ExchangeCounts {
 

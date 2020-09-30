@@ -72,7 +72,7 @@ import org.slf4j.LoggerFactory;
  *
  * All classes needing config data retrieve it here.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

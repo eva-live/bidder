@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# This runs the RTB4FREE server
+# This runs the EvaLive server
 #
 java -Xmx4g \
 -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=7000 \

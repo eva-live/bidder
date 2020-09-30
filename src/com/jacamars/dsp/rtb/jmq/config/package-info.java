@@ -1,7 +1,7 @@
 
 /**
  * The zeromq configuration object.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 package com.jacamars.dsp.rtb.jmq.config;

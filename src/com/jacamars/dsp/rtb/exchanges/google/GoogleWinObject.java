@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * A class that handles google wins (synthesized in the creative, google doesn't support the nurl).
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class GoogleWinObject extends WinObject {

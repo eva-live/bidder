@@ -17,9 +17,9 @@ import org.apache.zookeeper.ZooKeeper;
 import org.apache.zookeeper.data.Stat;
 
 /**
- * A class for handling configuration, campaign and status data for RTB4FREE
+ * A class for handling configuration, campaign and status data for EvaLive
  * 
- * @author Ben M. Faul.
+ * @author David Boulette.
  *
  */
 public class ZkConnect {

@@ -1,6 +1,6 @@
 /**
  * Contains tools for working with the Redisson database and the pub/sub system.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 package com.jacamars.dsp.rtb.tools;

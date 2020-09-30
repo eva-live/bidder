@@ -16,7 +16,7 @@ import com.google.common.hash.Funnels;
 
 /**
  * Implements the BloomFilter for UTF-8 strings. Builds a Guava bloom filter from file or S3 object.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class Cuckoo extends LookingGlass {

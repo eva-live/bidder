@@ -4,7 +4,7 @@ import com.jacamars.dsp.rtb.bidder.Controller;
 
 /**
  * A class that is used to send the start bidding command to the bidder.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

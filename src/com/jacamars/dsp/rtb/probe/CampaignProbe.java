@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.LongAdder;
 
 /**
  * The campaign probe. Keeps up with why the campaign is not bidding.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class CampaignProbe {

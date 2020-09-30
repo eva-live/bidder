@@ -8,7 +8,7 @@ import java.util.List;
  * at execute() every logging interval. The name is the channel name, the values is a list of JSON strings that are the
  * log entries for this channel for the log period.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

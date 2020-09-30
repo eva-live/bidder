@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * A count down latch that is abortable.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

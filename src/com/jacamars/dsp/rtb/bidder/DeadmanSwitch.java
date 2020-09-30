@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  * json, it must be present in the REDIs store before the bidder will bid. The
  * switch is set by the accounting program.
  * 
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class DeadmanSwitch implements Runnable {

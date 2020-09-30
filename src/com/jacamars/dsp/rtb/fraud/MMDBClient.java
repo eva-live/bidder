@@ -18,7 +18,7 @@ import com.maxmind.geoip2.model.IspResponse;
 
 /**
  * A Singleton class that implements the Max Mind bot detection class.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public enum MMDBClient implements FraudIF {

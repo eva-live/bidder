@@ -12,7 +12,7 @@ import com.jacamars.dsp.rtb.geo.Solution;
 
 /**
  * Make sure GPS to zip code conversion works as expected.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class TestGeoTag  {

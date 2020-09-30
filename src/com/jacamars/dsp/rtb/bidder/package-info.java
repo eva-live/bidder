@@ -1,6 +1,6 @@
 /**
  * Contains the core pieces of the bidding engine. The server, the pub/sub control mechanisms, and the campaign selection classes.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 package com.jacamars.dsp.rtb.bidder;

@@ -26,7 +26,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * A Singleton class that implements the Forenciq.com anti-fraud bid checking system.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public enum  ForensiqClient implements FraudIF {

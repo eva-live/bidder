@@ -6,7 +6,7 @@ import com.jacamars.dsp.rtb.pojo.BidRequest;
 
 /**
  * A class to handle Generic ad exchange. This is unencoded type SSP.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 

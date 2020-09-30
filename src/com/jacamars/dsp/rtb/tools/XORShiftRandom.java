@@ -2,7 +2,7 @@ package com.jacamars.dsp.rtb.tools;
 
 /**
  * Replacement for dog slow Java Random.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class XORShiftRandom {

@@ -12,7 +12,7 @@ import javax.script.ScriptEngineManager;
 /**
  * A class for executing server side javascript.
  * Copyright c, 2015 Eeminder Inc., all rights reserved.
- * @author Ben M. Faul
+ * @author David Boulette
  *
  */
 public class NashHorn {

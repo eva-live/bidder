@@ -27,7 +27,7 @@ import org.slf4j.LoggerFactory;
  * found, then one is selected at random, and then the BidRequest object is
  * returned. If no campaign matched, then null is returned.
  *
- * @author Ben M. Faul
+ * @author David Boulette
  */
 public class CampaignSelector {
 
