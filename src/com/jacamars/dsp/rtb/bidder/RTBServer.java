@@ -1570,9 +1570,9 @@ class Handler extends AbstractHandler {
                 Cookie c = cookies[i];
                 if (debug)
                     logger.info("Cookie, name: {}, domain: {}, value: {}",c.getName(),c.getDomain(),c.getValue());
-                if (c.getName().equals("rtb4free")) {
+                if (c.getName().equals("evalive")) {
                     if (debug)
-                        logger.info("Found cooklie, Returning cookie: {}", c.getValue());
+                        logger.info("Found cookie, Returning cookie: {}", c.getValue());
                     return c.getValue();
                 }
             }
@@ -1586,7 +1586,7 @@ class Handler extends AbstractHandler {
         }
 
         String value = UUID.randomUUID().toString();
-        Cookie c = new Cookie("rtb4free",value);
+        Cookie c = new Cookie("evalive",value);
         c.setDomain(domain);
 
         c.setMaxAge(RTBServer.TEN_YEARS);
@@ -1606,7 +1606,7 @@ class Handler extends AbstractHandler {
     	  Cookie[] cookies = request.getCookies();
           for (int i=0;i<cookies.length;i++) {
               Cookie c = cookies[i];
-              if (c.getName().equals("rtb4free")) {
+              if (c.getName().equals("evalive")) {
                   c.setMaxAge(0);
                   response.addCookie(c);
                   return "Deleted RTB cookie: " + c.getValue() + ". Restart your browser to take effect.";

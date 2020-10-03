@@ -1,6 +1,6 @@
 
 /**
- * The ZeroMQ system used by the RTB4FREE bidder.
+ * The ZeroMQ system used by the evalive bidder.
  * @author David Boulette
  *
  */

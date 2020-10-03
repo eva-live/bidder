@@ -111,7 +111,7 @@ public class BidRequest {
 	 * Indicates there is an ext.evalive object present in the bid request, used
 	 * by our own private exchange
 	 */
-	static boolean RTB4FREE;
+	static boolean evalive;
 
 	// Reference to iso 2 to 3 character translation. Some SSPs require this.
 	protected static final IsoTwo2Iso3 isoMap = (IsoTwo2Iso3) LookingGlass.symbols.get("@ISO2-3");
@@ -145,7 +145,7 @@ public class BidRequest {
 	 * key/values is then put in the 'database' object for the bidrequest.
 	 */
 	public synchronized static void compile() throws Exception {
-		RTB4FREE = false;
+		evalive = false;
 
 		/**
 		 * Stop the bidder, if it is running

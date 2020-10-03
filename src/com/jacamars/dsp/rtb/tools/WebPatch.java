@@ -65,7 +65,7 @@ public class WebPatch {
 			case "-h":
 				System.out.println("-www <directory>          [The parent directory in front of the www, default is ./]");
 				System.out.println("-address <host>           [The address of the RTB (do not specify the port]");
-				System.out.println("-brand <brand-name>       [The Brandname used to replace RTB4FREE]");
+				System.out.println("-brand <brand-name>       [The Brandname used to replace evalive]");
 				System.out.println("-aero <aero-host>       [The hostname of where redis lives (do not specify the port]");
 				System.out.println("-webdis <redis-host:port> [The hostname of where webdis lives]");
 				System.out.println("-service homedir         [The Login home directoy (for /home/ben use -service ben, default is ubuntu)]");

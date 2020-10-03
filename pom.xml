@@ -2,7 +2,7 @@
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <version>0.0.1-SNAPSHOT</version>
-  <name>RTB4FREE</name>
+  <name>EvaLive</name>
   <description>RTB 2.5 DSP</description>
 
   <properties>
@@ -297,10 +297,10 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   </plugins>
   </reporting>
   <organization>
-  <url>http://rtb4free.com</url>
+  <url>http://eva.live</url>
   <name>Jacamars</name>
   </organization>
-  <url>http://rtb4free.com</url>
-  <groupId>RTB4FREE</groupId>
+  <url>http://eva.live</url>
+  <groupId>EvaLive</groupId>
   <artifactId>Bidder</artifactId>
 </project>
